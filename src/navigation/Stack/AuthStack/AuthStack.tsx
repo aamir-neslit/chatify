@@ -1,20 +1,19 @@
 import { createStackNavigator } from "@react-navigation/stack";
-import { HomeScreen } from "@screens";
-import { Text, View } from "react-native";
+import { LoginScreen } from "@screens";
 
 const Stack = createStackNavigator();
 
-const HomeStack = () => {
+const AuthStack = () => {
   return (
     <Stack.Navigator
-      initialRouteName='HomeScreen'
+      initialRouteName='Login'
       screenOptions={{ headerShown: false }}>
       <Stack.Screen
-        name='HomeScreen'
-        component={HomeScreen}
+        name='Login'
+        component={LoginScreen}
       />
     </Stack.Navigator>
   );
 };
 
-export { HomeStack };
+export { AuthStack };
