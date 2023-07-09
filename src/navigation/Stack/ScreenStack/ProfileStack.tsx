@@ -9,7 +9,7 @@ const ProfileStack = () => {
       initialRouteName='HomeScreen'
       screenOptions={{ headerShown: false }}>
       <Stack.Screen
-        name='Profile'
+        name='ProfileScreen'
         component={Profile}></Stack.Screen>
     </Stack.Navigator>
   );

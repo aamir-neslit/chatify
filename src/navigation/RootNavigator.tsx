@@ -9,7 +9,7 @@ const RootNavigator = () => {
   return (
     <NavigationContainer>
       <RootStack.Navigator screenOptions={{ headerShown: false }}>
-        {false ? (
+        {true ? (
           <RootStack.Screen
             name='AuthStack'
             component={AuthStack}

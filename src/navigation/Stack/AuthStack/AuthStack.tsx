@@ -1,13 +1,18 @@
 import { createStackNavigator } from "@react-navigation/stack";
-import { LoginScreen } from "@screens";
+import { LoginScreen, SplashScreen } from "@screens";
+import { Pressable } from "react-native";
 
 const Stack = createStackNavigator();
 
 const AuthStack = () => {
   return (
     <Stack.Navigator
-      initialRouteName='Login'
+      initialRouteName='Splash'
       screenOptions={{ headerShown: false }}>
+      <Stack.Screen
+        name='Splash'
+        component={SplashScreen}
+      />
       <Stack.Screen
         name='Login'
         component={LoginScreen}

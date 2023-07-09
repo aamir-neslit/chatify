@@ -1,11 +1,13 @@
-import { SafeAreaView, Text } from "react-native";
+import { Text } from "react-native";
 import React from "react";
+import { Screen } from "@constants";
+import { BackButton } from "@components";
 
 const LoginScreen = () => {
   return (
-    <SafeAreaView>
-      <Text>Login</Text>
-    </SafeAreaView>
+    <Screen starter>
+      <BackButton />
+    </Screen>
   );
 };
 
