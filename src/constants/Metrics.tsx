@@ -11,7 +11,8 @@ const moderateScale = (size, factor = 0.5) =>
   size + (horizontalScale(size) - size) * factor;
 
 const COLORS = {
-  PRIMARY: "#37286b",
+  // PRIMARY: "#37286b",
+  PRIMARY: "#4A3F69",
 };
 
 export { horizontalScale, verticalScale, moderateScale, COLORS };

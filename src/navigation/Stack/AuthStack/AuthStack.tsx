@@ -1,6 +1,5 @@
 import { createStackNavigator } from "@react-navigation/stack";
 import { LoginScreen, SplashScreen } from "@screens";
-import { Pressable } from "react-native";
 
 const Stack = createStackNavigator();
 

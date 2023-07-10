@@ -26,6 +26,9 @@
       "@screens": [
         "screens"
       ],
+      "@services": [
+        "services"
+      ],
       "@constants": [
         "constants"
       ],
